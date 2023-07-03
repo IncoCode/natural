@@ -13,7 +13,7 @@
   "dependencies": {
     "afinn-165": "^1.0.2",
     "afinn-165-financialmarketnews": "^3.0.0",
-    "apparatus": "IncoCode/apparatus#b3ab83f512d8acaf3b870d6ac4a589377f0b7a6a",
+    "apparatus": "IncoCode/apparatus#7eadb537db69681d0062ee8ee64f7edc50090fef",
     "safe-stable-stringify": "^2.2.0",
     "stopwords-iso": "^1.1.0",
     "sylvester": "^0.0.12",
