@@ -151,7 +151,7 @@ declare type LogisticRegressionWorkersClassifierCallback = (
 ) => void;
 
 export class LogisticRegressionWorkersClassifier extends ClassifierBasePromise {
-  constructor(stemmer?: Stemmer);
+  constructor(numWorkers: number, onProgress?: () => void, stemmer?: Stemmer);
   static load(
     filename: string,
     stemmer: Stemmer | null | undefined,
